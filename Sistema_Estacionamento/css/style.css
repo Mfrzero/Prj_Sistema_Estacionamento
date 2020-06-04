@@ -1,0 +1,96 @@
+/*.container
+{   
+	width: 700px;
+	height: 500px;
+	margin-top:20px;
+	border-radius: 10px;
+}*/
+
+body {
+    background:url(../img/cars.jpg)no-repeat;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100%;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    /*margin-bottom: 10px;*/
+    /*box-shadow: 10px 10px 8px #888888;	*/
+}
+
+label {
+
+    text-align: center;
+    display: block;
+    font-family: 'Bitter', serif;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+input {
+    display: block;
+    font-family: 'Bitter', serif;
+    width: 90%;
+    margin-left: 50px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    
+    margin: 20px 37px 38px;
+    margin-top: -22px;
+}
+
+.this button {
+    margin-left: 41%;
+    margin-top: 20px;
+}
+
+.patio {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container-patio {
+    width: 660px;
+    height: 400px;
+    margin: 20px;
+    float: right;
+}
+
+.container-cadastro {
+    float: left;
+    width: 440px;
+    height: 400px;
+    margin: 20px;
+
+}
+
+.container-dados {
+    padding-right: 55px;
+}
+
+footer {
+    background-color: black;
+}
+
+.jumbotron{
+    border-radius: 15px;
+}
+
+.automovel {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 85px;
+    font-size: 15px;
+}
+
+button, select {
+    text-transform: none;
+    margin-left: 183px;
+    margin-top: 15px;
+}

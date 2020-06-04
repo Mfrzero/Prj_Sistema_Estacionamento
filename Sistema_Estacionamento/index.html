@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sistema Estacionamento</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Bitter" rel="stylesheet">
+
+</head>
+
+<body onload="mostraPatio()">
+    <div class="container-cadastro">
+        <div class="jumbotron">
+
+            <h2>Sistema Estacionamento</h2>
+            <div class="container-dados">
+                <form action="#" id="formulario">
+                    <label style="font-size: 30px;">Tipo do veiculo</label>
+                   
+                        <!-- <label class="automovel">Carro</label>
+                        <input type="radio" name="carro" id="automovel"/>
+                        <label class="automovel">Moto</label>
+                        <input type="radio" name="moto" id="automovel"/> -->
+                        <!-- onChange="tipoDoVeiculo()" -->
+                        <select id="tipo_Veiculo" >
+                            
+                            <option value="carro">Carro</option>
+                            <option value="moto">Moto</option>
+                            
+                        </select>
+                    
+
+                    <label style="font-size: 25px;">Modelo</label>
+                    <input type="text" id="modeloVeiculo" name="">
+
+                    <label style="font-size: 25px;">Placa</label>
+                    <input type="text" id="placaVeiculo" name="">
+
+                    <div class="this">
+                        <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-patio">
+        <div class="patio">
+            <div class="row marketing">
+                <div class="col-lg-12">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr style="color: black">
+                                <th>Tipo</th>
+                                <th>Modelo</th>
+                                <th>Placa</th>
+                                <th>Entrada</th>
+                                <th>Finalizar</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="resultados"></tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
